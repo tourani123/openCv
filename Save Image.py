@@ -8,6 +8,6 @@ import cv2
 
 # Reading image in grayScale
 img = cv2.imread("depth.jpg", 0)
-#Display image
+#Save image
 cv2.imwrite("Depth in grayScale.png", img)
 cv2.destroyAllWindows()
